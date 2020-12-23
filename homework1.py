@@ -1,0 +1,11 @@
+variable1 = int(input("Please enter an integer number (for example; 5) : "))
+variable2 = float(input("Please enter a float number (for example; 1.2) :  "))
+variable3 = str(input("Please enter a string value (for example; python ) : "))
+variable4 = bool(input("Please enter a boolean value (for example; true ) : "))
+variable5 = complex(input("Please enter a complex value (for example; 3j) : "))
+
+print("\nInteger value you entered is {} and type of {}".format(variable1, type(variable1)))
+print("Integer value you entered is {} and type of {}".format(variable2, type(variable2)))
+print("Integer value you entered is {} and type of {}".format(variable3, type(variable3)))
+print("Integer value you entered is {} and type of {}".format(variable4, type(variable4)))
+print("Integer value you entered is {} and type of {}".format(variable5, type(variable5)))
